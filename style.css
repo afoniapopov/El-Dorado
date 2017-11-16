@@ -1,89 +1,74 @@
-.main{
-    margin: 0 auto;
-    width: 1128px;
-    background: #ffffff;
+body {
+    margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url(topp.jpeg);
 }
-.img{
-        background: #ffffff url('header-bg.jpg');
-        height: 311px;
+
+.header {
+    width: 992px;
+    height: 132px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 100px;
+    box-sizing: border-box;
 }
-.logo a{
-    font-family: "Cuprum", sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0 23px 0 28px;
-    color: #046eb8;
-    text-decoration: underline;
+
+.bar {
+    width: 762px;
+    height: 83px;
+    background-image: url(imgres.html);
+    display: flex;
+    text-align: right;
+    padding-top: 60px;
+    box-sizing: border-box
 }
-.logo{
-        height: 80px;
-    padding-top: 11px;
-    font-size: 0;
-    background: #ffffff;
-}
-.tabs{
-    width: 829px;
-    background: #fff;
-    margin: 5px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    height: 609px;
-}
-.data{
-    text-align: center;
-    padding: 10px;
-    line-height: 20px;
-    font-size: 16px;
-    text-align: center;
-    text-transform: uppercase
-}
-.koroche{
-    line-height: 26px;
-    font-size: 12px;
-    text-align: center;
-    color: #00aeff;
-}
-.line{
-    height: 20px;
-    font-size: 12px;
-}
-.flex{
-	display: flex;
-}
-button{
-	background-color: transparent;
-    border: 1px solid #00a6ff;
-    display: inline-block;
-	    color: #00aeff;
-    font-size: 12px;
-    padding: 2px 10px;
-    text-decoration: none;
-}
-.h2{
-	    color: #fff;
-    background-color: #046eb8;
-    padding: 5px 15px;
-	height: 20px
-}
-.white{
-	background: #ffffff;
-	color: #046eb8;
-}
-.badline{
-	 background: #046eb8;
-	height: 35px;
-	padding: 5px 15px;
-	color: #fff;
-	display: flex;
-	margin-top: 10px;
-	padding-bottom: 10px;
-	width: 700px;
-	margin-right: auto;
-	margin-left: auto
+.link {
+    width: 153px;
+    height: 73px;
+    margin-right: 4px;
+	
 	
 }
+.main {
+    width: 980px;
+    margin: 0 auto
+}
+.main_h2 {
+   font-size: 34px;
+    
+    
+}
+.topbar {
+    height: 44px;
+    background-image: url(box-top.jpg);
+    background-size: 100%;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 20px;
+    box-sizing: border-box
+}
+.midl {
+    background-image: url();
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box {
+    width: 320px;
+    height: 290px;
+    margin: 0 auto;
+    text-align: center
+    
+}
+.box img {
+    height: 135px;
+    width: 300px;
+}
+		
+		
+		
+		
+		
